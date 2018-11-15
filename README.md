@@ -1,5 +1,5 @@
 <p align="center">
-<img width="600px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/debounce-hook/master/img/img.png" ></p>
+<img width="600px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/promise-hook/master/img/img.png" ></p>
 
 # React Debounce Hook
 
@@ -40,7 +40,7 @@ export default App
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/nudelx/debounce-hook/master/img/demo.gif)
+![demo](https://raw.githubusercontent.com/nudelx/promise-hook/master/img/demo.gif)
 
 ## Installation
 
