@@ -1,7 +1,7 @@
 {
-  "name": "promise-hook",
+  "name": "react-promise-hook",
   "version": "1.0.0",
-  "description": "promise a hook",
+  "description": "react promise a hook",
   "main": "index.js",
   "repository": "https://github.com/nudelx/promise-hook",
   "bugs": {
