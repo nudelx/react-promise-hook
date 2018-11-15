@@ -1,0 +1,35 @@
+{
+  "name": "debounce-hook",
+  "version": "1.0.0",
+  "description": "we will promise a hook",
+  "main": "index.js",
+  "repository": "https://github.com/nudelx/debounce-hook",
+  "bugs": {
+    "url": "https://github.com/nudelx/debounce-hook/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel index.js -d dist --copy-files"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "compose",
+    "javascript"
+  ],
+  "author": "Alex Nudelman",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.1.2",
+    "@babel/core": "^7.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1"
+  }
+}
