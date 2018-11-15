@@ -41,13 +41,13 @@ export default App
 ## Installation
 
 ```
- npm i promise-hook
+ npm i react-promise-hook
 ```
 
 or
 
 ```
- yarn add promise-hook
+ yarn add react-promise-hook
 ```
 
 ---
