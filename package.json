@@ -1,11 +1,11 @@
 {
   "name": "react-promise-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react promise a hook",
   "main": "index.js",
-  "repository": "https://github.com/nudelx/promise-hook",
+  "repository": "https://github.com/nudelx/react-promise-hook",
   "bugs": {
-    "url": "https://github.com/nudelx/promise-hookissues"
+    "url": "https://github.com/nudelx/react-promise-hook/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
