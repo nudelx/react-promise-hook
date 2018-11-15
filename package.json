@@ -1,7 +1,7 @@
 {
-  "name": "debounce-hook",
+  "name": " promise-hook",
   "version": "1.0.0",
-  "description": "we will promise a hook",
+  "description": "promise a hook",
   "main": "index.js",
   "repository": "https://github.com/nudelx/promise-hook",
   "bugs": {
