@@ -8,10 +8,10 @@ React hook with the promise that gives you an ability to react on after set effe
 ## Usage
 
 ```js
-import useHookPromise from 'promise-hook'
+import usePromiseHook from 'promise-hook'
 
 const App = () => {
-  const [test, setTest] = useHookPromise(0)
+  const [test, setTest] = usePromiseHook(0)
 
   if (!test) {
     setTimeout(() => {
