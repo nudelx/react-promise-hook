@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/promise-hook/master/img/img.png" ></p>
+<img width="300px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/react-promise-hook/master/img/img.png" ></p>
 
 # React Promise Hook
 
@@ -8,7 +8,7 @@ React hook with the promise that gives you an ability to react on after set effe
 ## Usage
 
 ```js
-import usePromiseHook from 'promise-hook'
+import usePromiseHook from 'react-promise-hook'
 
 const App = () => {
   const [test, setTest] = usePromiseHook(0)
@@ -36,7 +36,7 @@ export default App
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/nudelx/promise-hook/master/img/demo.gif)
+![demo](https://raw.githubusercontent.com/nudelx/react-promise-hook/master/img/demo.gif)
 
 ## Installation
 
