@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "we will promise a hook",
   "main": "index.js",
-  "repository": "https://github.com/nudelx/debounce-hook",
+  "repository": "https://github.com/nudelx/promise-hook",
   "bugs": {
-    "url": "https://github.com/nudelx/debounce-hook/issues"
+    "url": "https://github.com/nudelx/promise-hookissues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
     "react",
     "hook",
     "hooks",
-    "compose",
+    "promise",
     "javascript"
   ],
   "author": "Alex Nudelman",

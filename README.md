@@ -1,5 +1,5 @@
 <p align="center">
-<img width="600px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/debounce-hook/master/img/img1.png" ></p>
+<img width="600px" height="300px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/debounce-hook/master/img/img.png" ></p>
 
 # React Debounce Hook
 
@@ -12,32 +12,30 @@ You can provide an after effect callback which will be triggered after debounce 
 ## Usage
 
 ```js
-import useDebounceHook from 'debounce-hook'
+import useHookPromise from 'promise-hook'
 
-const Input = ({
-  id,
-  defaultValue = '',
-  debounce = 400,
-  className,
-  placeholder,
-  name
-}) => {
-  const { value, onInputChange } = useDebounceHook(defaultValue, debounce, () =>
-    console.log('UPDATE')
-  )
+const App = () => {
+  const [test, setTest] = useHookPromise(0)
+
+  if (!test) {
+    setTimeout(() => {
+      setTest(42).then(() => console.log('UPDATED'))
+    }, 2000)
+  }
+
   return (
-    <div className={className}>
-      <label htmlFor={id}>{name}</label>
-      <input
-        placeholder={placeholder}
-        name={name}
-        value={value}
-        id={id}
-        onChange={e => onInputChange(e.target.value)}
-      />
+    <div className="App">
+      <header className="App-header">
+        <span role="img" aria-label="img">
+          🤓
+        </span>
+        The Answer is {test}
+      </header>
     </div>
   )
 }
+
+export default App
 ```
 
 ## Demo
@@ -47,13 +45,13 @@ const Input = ({
 ## Installation
 
 ```
- npm i debounce-hook
+ npm i promise-hook
 ```
 
 or
 
 ```
- yarn add debounce-hook
+ yarn add promise-hook
 ```
 
 ---
